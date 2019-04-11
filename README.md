@@ -1,5 +1,5 @@
 # Red Tetris
-[![Current Version](https://img.shields.io/badge/version-0.1.1-green.svg)]
+![Current Version](https://img.shields.io/badge/version-0.1.1-green.svg)
 
 Multiplayers tetris, Full Stack Javascript, Node-js React-js redux 
 
