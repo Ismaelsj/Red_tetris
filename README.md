@@ -2,7 +2,7 @@
 
 Multiplayers tetris, Full Stack Javascript.
 
-![red tetris](./img/solo_home.png)
+![red tetris](./img/multi_in_game.png)
 
 ### Usage
 
