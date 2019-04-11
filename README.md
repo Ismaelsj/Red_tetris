@@ -11,8 +11,8 @@ Multiplayers tetris, Full Stack Javascript.
 ### Requirement
 > create a database folder
 ```
-mkadir data
-mkadir data/red_tetris
+mkadir <path to data folder>/data
+mkadir <path to data folder>/data/red_tetris
 ```
 
 ### Usage
