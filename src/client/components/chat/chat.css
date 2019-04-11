@@ -1,0 +1,133 @@
+
+.messageBox {
+    background-color: lightgray;
+    position: relative;
+    height: 300px;
+    width: 280px;
+    /* margin-bottom: 5px; */
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+}
+
+    /* diplay message */
+ul{
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+    border: 2px black;
+}
+  
+ul li{
+    text-align: left;
+    display: inline-block;
+    clear: both;
+    padding: 6px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    max-width: 150px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16;
+}
+  
+.receiver{
+    background: #eee;
+    float: left;
+}
+  
+.sender{
+    float: right;
+    background: #0084ff;
+    color: #fff;
+}
+  
+.receiver + .sender{
+    border-bottom-right-radius: 3px;
+}
+  
+.sender + .sender{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.sender:last-of-type {
+    border-bottom-right-radius: 30px;
+  }
+  
+/* .sender:last-of-type {
+    border-bottom-right-radius: 30px;
+} */
+
+.messages {
+    display: block;
+    overflow-y: scroll;
+    height: 70%;
+}
+
+.input {
+    padding: 5px;
+    bottom: 10px;
+}
+
+
+body {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+    background-color: lightgrey;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  border-radius: 15px;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  /* background-color: white; */
+  /* border-radius: 15px; */
+}
+
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

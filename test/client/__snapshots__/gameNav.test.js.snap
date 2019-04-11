@@ -1,0 +1,1207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game navigation game navigation => render: props -> ... 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(GameNav)>
+    <GameNav
+      game={
+        Object {
+          "Game": null,
+          "GameBoard": Object {
+            "opponent": Array [
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+            ],
+            "player": Array [
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+              Array [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+              ],
+            ],
+          },
+          "GameHistory": Array [],
+          "Malus": 0,
+          "Pieces": Array [],
+          "Score": 0,
+          "isPlaying": false,
+        }
+      }
+      onSetManager={[Function]}
+      room={
+        Object {
+          "conversation": Array [],
+          "isChanging": false,
+          "isManager": true,
+          "msgNot": 0,
+          "players": Array [
+            "Ismael",
+          ],
+          "roomName": "Ismael",
+          "userName": "Ismael",
+        }
+      }
+      user={
+        Object {
+          "isAuth": false,
+          "room": "Ismael",
+          "socket": null,
+          "userName": "Ismael",
+        }
+      }
+    >
+      <div
+        className="navigator"
+      >
+        <div
+          className="infoControl"
+        >
+          <Popup
+            disabled={false}
+            keepInViewPort={true}
+            on="hover"
+            position="top left"
+            trigger={
+              <Icon
+                as="i"
+                circular={true}
+                inverted={true}
+                name="question circle outline"
+                size="large"
+              />
+            }
+          >
+            <Portal
+              closeOnDocumentClick={true}
+              closeOnEscape={true}
+              closeOnTriggerMouseLeave={true}
+              eventPool="default"
+              mouseEnterDelay={50}
+              mouseLeaveDelay={70}
+              onClose={[Function]}
+              onMount={[Function]}
+              onOpen={[Function]}
+              onUnmount={[Function]}
+              openOnTriggerClick={true}
+              openOnTriggerMouseEnter={true}
+              trigger={
+                <Icon
+                  as="i"
+                  circular={true}
+                  inverted={true}
+                  name="question circle outline"
+                  size="large"
+                />
+              }
+              triggerRef={[Function]}
+            >
+              <Ref
+                innerRef={[Function]}
+              >
+                <RefFindNode
+                  innerRef={[Function]}
+                >
+                  <Icon
+                    as="i"
+                    circular={true}
+                    inverted={true}
+                    name="question circle outline"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    size="large"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="question circle outline large circular inverted icon"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                    />
+                  </Icon>
+                </RefFindNode>
+              </Ref>
+            </Portal>
+          </Popup>
+        </div>
+        <Container
+          as="h2"
+          className="score"
+          textAlign="center"
+        >
+          <h2
+            className="ui center aligned container score"
+          >
+            0
+          </h2>
+        </Container>
+        <Transition
+          animation="horizontal flip"
+          duration={300}
+          mountOnShow={true}
+          transitionOnMount={false}
+          unmountOnHide={false}
+          visible={false}
+        />
+        <Transition
+          animation="fade"
+          duration={200}
+          mountOnShow={true}
+          transitionOnMount={false}
+          unmountOnHide={false}
+          visible={true}
+        >
+          <div
+            className="fade visible transition"
+            style={
+              Object {
+                "animationDuration": undefined,
+              }
+            }
+          >
+            <div>
+              <Dimmer
+                active={true}
+                className="backGround"
+              >
+                <DimmerInner
+                  active={true}
+                  className="backGround"
+                >
+                  <div
+                    className="ui active transition visible dimmer backGround"
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="content"
+                    >
+                      <div
+                        className="gameHistory"
+                      />
+                      <div
+                        className="gameMenu"
+                      >
+                        <FormGroup>
+                          <div
+                            className="fields"
+                          >
+                            <FormSelect
+                              as={[Function]}
+                              control={[Function]}
+                              label={
+                                <Label
+                                  color="black"
+                                  size="large"
+                                >
+                                  Game Mode
+                                </Label>
+                              }
+                              onChange={[Function]}
+                              options={
+                                Array [
+                                  Object {
+                                    "key": "0",
+                                    "text": "Classic",
+                                    "value": "classic",
+                                  },
+                                ]
+                              }
+                              placeholder="Mode"
+                              value="classic"
+                            >
+                              <FormField
+                                control={[Function]}
+                                label={
+                                  <Label
+                                    color="black"
+                                    size="large"
+                                  >
+                                    Game Mode
+                                  </Label>
+                                }
+                                onChange={[Function]}
+                                options={
+                                  Array [
+                                    Object {
+                                      "key": "0",
+                                      "text": "Classic",
+                                      "value": "classic",
+                                    },
+                                  ]
+                                }
+                                placeholder="Mode"
+                                value="classic"
+                              >
+                                <div
+                                  className="field"
+                                >
+                                  <Label
+                                    color="black"
+                                    size="large"
+                                  >
+                                    <div
+                                      className="ui black large label"
+                                      onClick={[Function]}
+                                    >
+                                      Game Mode
+                                    </div>
+                                  </Label>
+                                  <Select
+                                    onChange={[Function]}
+                                    options={
+                                      Array [
+                                        Object {
+                                          "key": "0",
+                                          "text": "Classic",
+                                          "value": "classic",
+                                        },
+                                      ]
+                                    }
+                                    placeholder="Mode"
+                                    value="classic"
+                                  >
+                                    <Dropdown
+                                      additionLabel="Add "
+                                      additionPosition="top"
+                                      closeOnBlur={true}
+                                      deburr={false}
+                                      icon="dropdown"
+                                      minCharacters={1}
+                                      noResultsMessage="No results found."
+                                      onChange={[Function]}
+                                      openOnFocus={true}
+                                      options={
+                                        Array [
+                                          Object {
+                                            "key": "0",
+                                            "text": "Classic",
+                                            "value": "classic",
+                                          },
+                                        ]
+                                      }
+                                      placeholder="Mode"
+                                      renderLabel={[Function]}
+                                      searchInput="text"
+                                      selectOnBlur={true}
+                                      selectOnNavigation={true}
+                                      selection={true}
+                                      value="classic"
+                                      wrapSelection={true}
+                                    >
+                                      <div
+                                        aria-expanded={false}
+                                        className="ui selection dropdown"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onClick={[Function]}
+                                        onFocus={[Function]}
+                                        onMouseDown={[Function]}
+                                        role="listbox"
+                                        tabIndex={0}
+                                      >
+                                        <div
+                                          aria-live="polite"
+                                          className="text"
+                                          role="alert"
+                                        >
+                                          Classic
+                                        </div>
+                                        <Icon
+                                          as="i"
+                                          className=""
+                                          name="dropdown"
+                                          onClick={[Function]}
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            className="dropdown icon"
+                                            onClick={[Function]}
+                                          />
+                                        </Icon>
+                                        <DropdownMenu>
+                                          <div
+                                            className="menu transition"
+                                          >
+                                            <DropdownItem
+                                              active={true}
+                                              key="0"
+                                              onClick={[Function]}
+                                              selected={true}
+                                              style={
+                                                Object {
+                                                  "pointerEvents": "all",
+                                                }
+                                              }
+                                              text="Classic"
+                                              value="classic"
+                                            >
+                                              <div
+                                                aria-checked={true}
+                                                aria-selected={true}
+                                                className="active selected item"
+                                                onClick={[Function]}
+                                                role="option"
+                                                style={
+                                                  Object {
+                                                    "pointerEvents": "all",
+                                                  }
+                                                }
+                                              >
+                                                <span
+                                                  className="text"
+                                                >
+                                                  Classic
+                                                </span>
+                                              </div>
+                                            </DropdownItem>
+                                          </div>
+                                        </DropdownMenu>
+                                      </div>
+                                    </Dropdown>
+                                  </Select>
+                                </div>
+                              </FormField>
+                            </FormSelect>
+                            <Divider
+                              horizontal={true}
+                            >
+                              <div
+                                className="ui horizontal divider"
+                              />
+                            </Divider>
+                            <FormSelect
+                              as={[Function]}
+                              control={[Function]}
+                              label={
+                                <Label
+                                  color="black"
+                                  size="large"
+                                >
+                                  Game Difficulty
+                                </Label>
+                              }
+                              onChange={[Function]}
+                              options={
+                                Array [
+                                  Object {
+                                    "key": "0",
+                                    "text": "Easy  ",
+                                    "value": 500,
+                                  },
+                                  Object {
+                                    "key": "1",
+                                    "text": "Normal",
+                                    "value": 300,
+                                  },
+                                  Object {
+                                    "key": "2",
+                                    "text": "Hard  ",
+                                    "value": 100,
+                                  },
+                                ]
+                              }
+                              placeholder="Difficulty"
+                              value={500}
+                            >
+                              <FormField
+                                control={[Function]}
+                                label={
+                                  <Label
+                                    color="black"
+                                    size="large"
+                                  >
+                                    Game Difficulty
+                                  </Label>
+                                }
+                                onChange={[Function]}
+                                options={
+                                  Array [
+                                    Object {
+                                      "key": "0",
+                                      "text": "Easy  ",
+                                      "value": 500,
+                                    },
+                                    Object {
+                                      "key": "1",
+                                      "text": "Normal",
+                                      "value": 300,
+                                    },
+                                    Object {
+                                      "key": "2",
+                                      "text": "Hard  ",
+                                      "value": 100,
+                                    },
+                                  ]
+                                }
+                                placeholder="Difficulty"
+                                value={500}
+                              >
+                                <div
+                                  className="field"
+                                >
+                                  <Label
+                                    color="black"
+                                    size="large"
+                                  >
+                                    <div
+                                      className="ui black large label"
+                                      onClick={[Function]}
+                                    >
+                                      Game Difficulty
+                                    </div>
+                                  </Label>
+                                  <Select
+                                    onChange={[Function]}
+                                    options={
+                                      Array [
+                                        Object {
+                                          "key": "0",
+                                          "text": "Easy  ",
+                                          "value": 500,
+                                        },
+                                        Object {
+                                          "key": "1",
+                                          "text": "Normal",
+                                          "value": 300,
+                                        },
+                                        Object {
+                                          "key": "2",
+                                          "text": "Hard  ",
+                                          "value": 100,
+                                        },
+                                      ]
+                                    }
+                                    placeholder="Difficulty"
+                                    value={500}
+                                  >
+                                    <Dropdown
+                                      additionLabel="Add "
+                                      additionPosition="top"
+                                      closeOnBlur={true}
+                                      deburr={false}
+                                      icon="dropdown"
+                                      minCharacters={1}
+                                      noResultsMessage="No results found."
+                                      onChange={[Function]}
+                                      openOnFocus={true}
+                                      options={
+                                        Array [
+                                          Object {
+                                            "key": "0",
+                                            "text": "Easy  ",
+                                            "value": 500,
+                                          },
+                                          Object {
+                                            "key": "1",
+                                            "text": "Normal",
+                                            "value": 300,
+                                          },
+                                          Object {
+                                            "key": "2",
+                                            "text": "Hard  ",
+                                            "value": 100,
+                                          },
+                                        ]
+                                      }
+                                      placeholder="Difficulty"
+                                      renderLabel={[Function]}
+                                      searchInput="text"
+                                      selectOnBlur={true}
+                                      selectOnNavigation={true}
+                                      selection={true}
+                                      value={500}
+                                      wrapSelection={true}
+                                    >
+                                      <div
+                                        aria-expanded={false}
+                                        className="ui selection dropdown"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onClick={[Function]}
+                                        onFocus={[Function]}
+                                        onMouseDown={[Function]}
+                                        role="listbox"
+                                        tabIndex={0}
+                                      >
+                                        <div
+                                          aria-live="polite"
+                                          className="text"
+                                          role="alert"
+                                        >
+                                          Easy  
+                                        </div>
+                                        <Icon
+                                          as="i"
+                                          className=""
+                                          name="dropdown"
+                                          onClick={[Function]}
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            className="dropdown icon"
+                                            onClick={[Function]}
+                                          />
+                                        </Icon>
+                                        <DropdownMenu>
+                                          <div
+                                            className="menu transition"
+                                          >
+                                            <DropdownItem
+                                              active={true}
+                                              key="0"
+                                              onClick={[Function]}
+                                              selected={true}
+                                              style={
+                                                Object {
+                                                  "pointerEvents": "all",
+                                                }
+                                              }
+                                              text="Easy  "
+                                              value={500}
+                                            >
+                                              <div
+                                                aria-checked={true}
+                                                aria-selected={true}
+                                                className="active selected item"
+                                                onClick={[Function]}
+                                                role="option"
+                                                style={
+                                                  Object {
+                                                    "pointerEvents": "all",
+                                                  }
+                                                }
+                                              >
+                                                <span
+                                                  className="text"
+                                                >
+                                                  Easy  
+                                                </span>
+                                              </div>
+                                            </DropdownItem>
+                                            <DropdownItem
+                                              active={false}
+                                              key="1"
+                                              onClick={[Function]}
+                                              selected={false}
+                                              style={
+                                                Object {
+                                                  "pointerEvents": "all",
+                                                }
+                                              }
+                                              text="Normal"
+                                              value={300}
+                                            >
+                                              <div
+                                                aria-checked={false}
+                                                aria-selected={false}
+                                                className="item"
+                                                onClick={[Function]}
+                                                role="option"
+                                                style={
+                                                  Object {
+                                                    "pointerEvents": "all",
+                                                  }
+                                                }
+                                              >
+                                                <span
+                                                  className="text"
+                                                >
+                                                  Normal
+                                                </span>
+                                              </div>
+                                            </DropdownItem>
+                                            <DropdownItem
+                                              active={false}
+                                              key="2"
+                                              onClick={[Function]}
+                                              selected={false}
+                                              style={
+                                                Object {
+                                                  "pointerEvents": "all",
+                                                }
+                                              }
+                                              text="Hard  "
+                                              value={100}
+                                            >
+                                              <div
+                                                aria-checked={false}
+                                                aria-selected={false}
+                                                className="item"
+                                                onClick={[Function]}
+                                                role="option"
+                                                style={
+                                                  Object {
+                                                    "pointerEvents": "all",
+                                                  }
+                                                }
+                                              >
+                                                <span
+                                                  className="text"
+                                                >
+                                                  Hard  
+                                                </span>
+                                              </div>
+                                            </DropdownItem>
+                                          </div>
+                                        </DropdownMenu>
+                                      </div>
+                                    </Dropdown>
+                                  </Select>
+                                </div>
+                              </FormField>
+                            </FormSelect>
+                          </div>
+                        </FormGroup>
+                        <Divider
+                          horizontal={true}
+                        >
+                          <div
+                            className="ui horizontal divider"
+                          />
+                        </Divider>
+                        <FormButton
+                          as={[Function]}
+                          content="Play"
+                          control={[Function]}
+                          icon="play"
+                          inverted={true}
+                          onClick={[Function]}
+                        >
+                          <FormField
+                            content="Play"
+                            control={[Function]}
+                            icon="play"
+                            inverted={true}
+                            onClick={[Function]}
+                          >
+                            <div
+                              className="field"
+                            >
+                              <Button
+                                as="button"
+                                content="Play"
+                                icon="play"
+                                inverted={true}
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="ui inverted button"
+                                  onClick={[Function]}
+                                >
+                                  <Icon
+                                    as="i"
+                                    name="play"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="play icon"
+                                      onClick={[Function]}
+                                    />
+                                  </Icon>
+                                  Play
+                                </button>
+                              </Button>
+                            </div>
+                          </FormField>
+                        </FormButton>
+                      </div>
+                    </div>
+                  </div>
+                </DimmerInner>
+              </Dimmer>
+            </div>
+          </div>
+        </Transition>
+      </div>
+    </GameNav>
+  </Connect(GameNav)>
+  ,
+</Provider>
+`;

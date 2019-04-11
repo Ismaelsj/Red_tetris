@@ -1,0 +1,67 @@
+.navigator {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.infoControl {
+    position: absolute;
+    bottom: 0px;
+    left: 105%;
+}
+
+.score {
+    position: absolute;
+    top: -65px;
+    left: -5px;
+    color: white;
+}
+
+.gameHistory {
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    position: absolute;
+}
+
+.gameMenu {
+    bottom: 35%;
+    left: 25%;
+    height: 30%;
+    width: 50%;
+    position: absolute;
+}
+
+.pauseMenu {
+    border-radius: 10px;
+}
+
+.backGround {
+    background-color: #b30000;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+.pauseBtn {
+    position: relative;
+    left: -10%;
+}
+
+.modeSelector {
+    position: relative;
+    width: 100%;
+}
+
+.difficultySelector {
+    position: relative;
+    width: 100%;
+}
+
+.startGame {
+    position: relative;
+    width: 100%;
+    padding: 25%;
+}

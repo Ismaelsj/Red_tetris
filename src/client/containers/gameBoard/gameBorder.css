@@ -1,0 +1,159 @@
+.player {
+    position: absolute;
+    top: 10%;
+	left: 35%;
+    /* background-color: green; */
+    width: 50%;
+    height: 80%;
+  }
+  
+.player:after {
+    display: block;
+    padding-bottom: 100%;
+}
+
+.player .infoPlayer {
+    /* background-color: yellow; */
+    position: relative;
+    height: 90%;
+    width: 25%;
+    padding: 10px;
+    left: 55%;
+    text-align: center;
+}
+
+.infoPlayer .board {
+    /* background-color: blue; */
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    width: 100%;
+    height: 55%;
+    margin-bottom: 10%;
+}
+
+.infoPlayer .pieces {
+    /* background-color: red; */
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    width: 100%;
+}
+
+.player .playerBoard {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background-color: #b30000;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px 5px #b30000, 0 0px 20px 0 #b30000;
+}
+
+.player .opponentBoard {
+    border-radius: 30px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 14%;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 20px 5px #b30000, 0 0px 20px 0 #b30000;
+}
+
+        /* Next pieces */
+
+.player .nextPieces {
+    /* background-color: purple; */
+    border-radius: 30px;
+    border: 2px solid #b30000;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0px 20px 5px #b30000, 0 0px 20px 0 #b30000;
+}
+
+.nextPieces .columns {
+    height: 100%;
+    min-height: 30px;
+    width: 20%;
+    min-width: 30px;
+    display: inline-block;
+}
+
+.nextPieces .columns-1 {
+    height: 100%;
+    min-height: 30px;
+    width: 20%;
+    min-width: 30px;
+    display: inline-block;
+    background-color: #b30000;
+}
+
+.piece-1 {
+    /* height: 50%; */
+    height: 100px;
+    width: 120px;
+    top: 0px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.piece-2 {
+    /* height: 50%; */
+    height: 100px;
+    width: 120px;
+    bottom: 10px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+        /* Player grid */
+
+.playerBoard .rows {
+    height: 5%;
+    min-height: 20px;
+    background-color: black;
+}
+
+.playerBoard .columns {
+    display: inline-block;
+    height: 100%;
+    min-height: 20px;
+    width: 10%;
+    min-width: 20px;
+    border: 1px solid rgba(211, 211, 211, 0.216);
+    background-color: black;
+}
+
+.playerBoard .columns-1 {
+    display: inline-block;
+    height: 100%;
+    min-height: 20px;
+    width: 10%;
+    min-width: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.216);
+    background-color: #85021a;
+}
+
+        /* Opponent grid */
+
+.opponentBoard .rows {
+    height: 100%;
+    height: 20px;
+}
+
+.opponentBoard .columns {
+    display: inline-block;
+    height: 100%;
+    width: 20px;
+    border: 1px solid rgba(211, 211, 211, 0.216);
+    background-color: black;
+}
+
+.opponentBoard .columns-1 {
+    display: inline-block;
+    height: 100%;
+    width: 20px;
+    min-width: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.216);
+    background-color: #b30000;
+}

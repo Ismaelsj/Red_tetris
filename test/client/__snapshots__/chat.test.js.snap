@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat chat => redner: props -> ... 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Chat)
+    onNewMessage={null}
+    onRemoveMsgNot={null}
+    roomState={
+      Object {
+        "conversation": Array [],
+        "msgNot": 0,
+        "roomName": "Jean",
+      }
+    }
+    user={
+      Object {
+        "socket": null,
+        "userName": "Jean",
+      }
+    }
+  >
+    <Chat
+      onNewMessage={[Function]}
+      onRemoveMsgNot={[Function]}
+      roomState={
+        Object {
+          "conversation": Array [],
+          "isChanging": false,
+          "isManager": false,
+          "msgNot": 0,
+          "players": null,
+          "roomName": null,
+          "userName": "",
+        }
+      }
+      user={
+        Object {
+          "isAuth": false,
+          "room": "",
+          "socket": null,
+          "userName": "",
+        }
+      }
+    >
+      <div>
+        <button
+          className="open-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Chat
+        </button>
+        <div
+          className="chat-popup"
+          id="myForm"
+        >
+          <div
+            className="form-container"
+          >
+            <div
+              className="messageBox"
+            >
+              <div
+                className="messages"
+              >
+                <ul />
+              </div>
+              <div
+                className="input"
+              >
+                <Divider
+                  horizontal={true}
+                >
+                  <div
+                    className="ui horizontal divider"
+                  >
+                    <Icon
+                      as="i"
+                      inverted={true}
+                      name="chat"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="chat inverted icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                  </div>
+                </Divider>
+                <form
+                  className="inputMsg"
+                  onSubmit={[Function]}
+                >
+                  <Input
+                    fluid={true}
+                    inverted={true}
+                    onChange={[Function]}
+                    placeholder="Message..."
+                    type="text"
+                  >
+                    <div
+                      className="ui fluid inverted input"
+                    >
+                      <input
+                        onChange={[Function]}
+                        placeholder="Message..."
+                        type="text"
+                      />
+                    </div>
+                  </Input>
+                </form>
+              </div>
+            </div>
+            <button
+              className="btn cancel"
+              onClick={[Function]}
+              type="button"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </Chat>
+  </Connect(Chat)>
+</Provider>
+`;
+
+exports[`Chat chat => render: props -> ... 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Chat)>
+    <Chat
+      onNewMessage={[Function]}
+      onRemoveMsgNot={[Function]}
+      roomState={
+        Object {
+          "conversation": Array [],
+          "isChanging": false,
+          "isManager": false,
+          "msgNot": 0,
+          "players": null,
+          "roomName": null,
+          "userName": "",
+        }
+      }
+      user={
+        Object {
+          "isAuth": false,
+          "room": "",
+          "socket": null,
+          "userName": "",
+        }
+      }
+    >
+      <div>
+        <button
+          className="open-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Chat
+        </button>
+        <div
+          className="chat-popup"
+          id="myForm"
+        >
+          <div
+            className="form-container"
+          >
+            <div
+              className="messageBox"
+            >
+              <div
+                className="messages"
+              >
+                <ul />
+              </div>
+              <div
+                className="input"
+              >
+                <Divider
+                  horizontal={true}
+                >
+                  <div
+                    className="ui horizontal divider"
+                  >
+                    <Icon
+                      as="i"
+                      inverted={true}
+                      name="chat"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="chat inverted icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                  </div>
+                </Divider>
+                <form
+                  className="inputMsg"
+                  onSubmit={[Function]}
+                >
+                  <Input
+                    fluid={true}
+                    inverted={true}
+                    onChange={[Function]}
+                    placeholder="Message..."
+                    type="text"
+                  >
+                    <div
+                      className="ui fluid inverted input"
+                    >
+                      <input
+                        onChange={[Function]}
+                        placeholder="Message..."
+                        type="text"
+                      />
+                    </div>
+                  </Input>
+                </form>
+              </div>
+            </div>
+            <button
+              className="btn cancel"
+              onClick={[Function]}
+              type="button"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </Chat>
+  </Connect(Chat)>
+</Provider>
+`;

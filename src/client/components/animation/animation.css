@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    overflow: hidden;
+}
+
+.grid {
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    border-width: 1px 0 0 1px;
+    z-index: -100;
+}
+
+.grid div {
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-width: 0 1px 1px 0;
+    float: left;
+}
+
+.cel {
+    background-color: #b30000;
+    animation-name: orange;
+    animation-duration: .5s;
+}
+
+@keyframes orange {
+    0% {
+      background-color: white;
+      opacity: 0.3;
+    }
+    100% {
+      background-color: #b30000;
+      opacity: 1;
+    }
+  }
