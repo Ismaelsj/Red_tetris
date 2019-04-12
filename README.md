@@ -1,7 +1,7 @@
 # Red Tetris
 ![Current Version](https://img.shields.io/badge/version-0.1.1-green.svg)
 
-School **42** project: multiplayers tetris, Full Stack Javascript.
+School **42** [project](https://github.com/Ismaelsj/Red_tetris/blob/master/subject/red_tetris.fr.pdf): multiplayers tetris, Full Stack Javascript.
 
 ![red tetris](./img/multi_in_game.png)
 
